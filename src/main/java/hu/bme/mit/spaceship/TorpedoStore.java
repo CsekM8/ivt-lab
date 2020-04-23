@@ -12,11 +12,7 @@ public class TorpedoStore {
   // rate of failing to fire torpedos [0.0, 1.0]
   private double FAILURE_RATE = 0.0; //NOSONAR
 
-<<<<<<< HEAD
-  private int torpedoCount = 5;
-=======
-  private int torpedoCount = 8;
->>>>>>> branch-B
+  private int torpedoCount = 0;
 
   public TorpedoStore(int numberOfTorpedos){
     this.torpedoCount = numberOfTorpedos;
